@@ -1,0 +1,16 @@
+{
+    "name": "learnosity/learnosity-sdk-php",
+    "type": "library",
+    "description": "Include this package into your own codebase to ease integration with any of the Learnosity APIs",
+    "keywords": ["learnosity","sdk"],
+    "homepage": "https://github.com/Learnosity/learnosity-sdk-php",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-0": {
+            "LearnositySdk\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
